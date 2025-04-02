@@ -20,6 +20,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   esbuild: {
-    loader: 'tsx'
+    loader: 'tsx',
+    include: /src\/.*\.[tj]sx?$/,  // Ensure .tsx files are properly handled
   }
 }));
