@@ -20,6 +20,6 @@ export default defineConfig(({ mode }) => ({
     },
   },
   esbuild: {
-    loader: 'jsx'
+    loader: 'tsx'
   }
 }));
